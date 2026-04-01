@@ -1,0 +1,50 @@
+body{
+    margin:0px;
+}
+#article_box_1{
+    background-image: url('tokyo_1.jpg');
+    background-size: cover;
+}
+#article_box_2{
+    background-image: url('yokohama_1.jpg');
+    background-size: cover;
+}
+#article_box_3{
+    background-image: url('hakone_1.jpg');
+    background-size: cover;
+}
+
+#header {
+    text-align:center;
+    border-bottom:2px solid gray;
+    padding:10px;
+    text-decoration:none;
+}
+#header a{
+    text-decoration:none;
+    color:black;
+}
+
+.article{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.article_box{
+    border:2px solid black;
+    text-align: center;
+    padding:20%;
+    margin:10%;
+}
+
+#header_bottom{
+    background-size: cover;
+    background-position: center;
+    width:100vw;
+    height:40vh;
+    color:white;
+}
+#header_bottom h1{
+    padding-left:5vw;
+    padding-top:13vh;
+    margin:0;
+}
