@@ -2,15 +2,15 @@ body{
     margin:0px;
 }
 #article_box_1{
-    background-image: url('tokyo_1.jpg');
+    background-image: url('image/tokyo_1.jpg');
     background-size: cover;
 }
 #article_box_2{
-    background-image: url('yokohama_1.jpg');
+    background-image: url('image/yokohama_1.jpg');
     background-size: cover;
 }
 #article_box_3{
-    background-image: url('hakone_1.jpg');
+    background-image: url('image/hakone_1.jpg');
     background-size: cover;
 }
 
